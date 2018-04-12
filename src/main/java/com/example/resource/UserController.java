@@ -11,11 +11,11 @@ import com.example.repositories.UserRepository;
 public class UserController {
 
 	@Autowired
-	private UserRepository tableRepository;
+	private UserRepository userRepository;
 
 	@GetMapping("/init")
 	private void init() throws Exception {
-		tableRepository.save(new User("taro"));
+		userRepository.save(new User("taro"));
 	}
 
 }
