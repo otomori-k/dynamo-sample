@@ -1,0 +1,5 @@
+amazon:
+  dynamodb:
+    endpoint: https://dynamodb.ap-northeast-1.amazonaws.com
+  credential:
+    profile: default
